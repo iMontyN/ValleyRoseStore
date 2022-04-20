@@ -1,0 +1,91 @@
+
+
+.productCard{
+  // width:fit-content;
+  // margin: 2rem auto;
+  
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  min-height: 35rem;
+
+  p,h3{
+    margin: .5rem;
+  }
+
+
+  .cardHeader{
+    // margin: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    //box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    // width: 300px;
+    // min-height: 35rem;
+  }
+
+  .cardBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    color: #515151;
+  }
+
+  .cardCategory{
+    font-weight: 100;
+    display: block;
+    font-size: 1rem;
+    font-variant: normal;
+    text-transform: uppercase;
+    // font-style: italic;
+    // margin-bottom: 1.3rem;
+    padding: 0;
+  }
+
+  .cardTitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #515151;
+    font-variant: small-caps;
+  }
+
+  .cardPrice{
+    font-size: 2rem;
+    color: #515151;
+    font-variant: small-caps;
+  }
+
+  .cardDescription{
+    font-size: 1rem;
+    font-style: italic;
+    color: #7b7979;
+  }
+
+  .cardBtns{
+    outline: 0;
+    border: 0;
+    background: none;
+    border: 1px solid #c2c2c2;
+    padding: 8px 0px;
+    margin-bottom: 15px;
+    color: #515151;
+    text-transform: uppercase;
+    width: 125px;
+    font-family: 'Marcellus SC', serif;
+    margin-right: 5px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    cursor: pointer;
+
+  }
+
+  footer{
+    padding: 20px;
+  }
+
+}
+
