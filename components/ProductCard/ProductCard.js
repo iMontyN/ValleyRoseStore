@@ -24,7 +24,7 @@ function ProductCard ({children, product, ...props})  {
             <form action="/api/checkout" method="POST">
               <input type="hidden" name="uid" value={uid}/>
               <button className={cardBtns} type="submit">Buy Now</button>
-              <button  disable className={cardBtns}>Add To Cart</button>
+              <button className={cardBtns}>Add To Cart</button>
             </form>
           </footer>
         </aside>
